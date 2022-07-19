@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
   a = __builtin_bswap32(a);
   b = __builtin_bswap32(b);
 
-  printf("%u + %u = %u\n", a, b, a+b);
+  printf("%u(%#x) + %u(%#x) = %u\n", a, a, b, b, a+b);
 
   return 0;
 }
